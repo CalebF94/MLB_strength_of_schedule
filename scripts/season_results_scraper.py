@@ -1,13 +1,21 @@
+#Author: Caleb Fornshell
+#Date Created: 5/3/2025
+#Purpose: script to contain a function that gathers season results from baseball-reference
+
 import requests
-import re
+import re # regular expressions
 import pandas as pd
 from bs4 import BeautifulSoup
 
+#need to create a function
 url = "https://www.baseball-reference.com/leagues/majors/2024-standings.shtml"
 
 response = requests.get(url)
 html = response.text
 
+
+#website html had a wierd comment that BeautifulSoup wouldn't parse following html. 
+#I removed all comments and then it worked
 html = re.sub(r'<!--.*-->', '', html)
 
 
