@@ -29,6 +29,8 @@ def get_season_results(season):
                 stat_row.append(stat.text)
             df.loc[len(df)] = stat_row
 
+    df.rename(columns={'Team': 'Team Name'}, inplace=True)
+
     return(df)
 
 
