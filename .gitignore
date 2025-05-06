@@ -12888,3 +12888,6 @@ venv/share/jupyter/kernels/python3/logo-32x32.png
 venv/share/jupyter/kernels/python3/logo-64x64.png
 venv/share/jupyter/kernels/python3/logo-svg.svg
 venv/share/man/man1/ipython.1.gz
+scripts/__pycache__/game_results_scraper.cpython-37.pyc
+scripts/__pycache__/season_results_scraper.cpython-37.pyc
+scripts/__pycache__/team_name_scraper.cpython-37.pyc
