@@ -11,22 +11,34 @@ from season_results_scraper import *
 import pandas as pd
 import time
 
+#indexes to identify first loop through
+game_ind = 1
+season_ind = 1
+for yr in range(2020, 2025):
+    
+    teams = get_team_names(yr)
 
-#for yr in range(2020, 2025)
-teams = get_team_names(2024)
-#season_results = get_season_results(2024)
-#season_results['Team'] = season_results['Team Name'].map(teams)
-
-ind = 0
-for team in teams.values():
-    time.sleep(5) # needed to avoid 429 error
-
-    ind += 1
-    if ind == 1:
-        #initialize on first iteration
-        game_results = get_game_results(team, 2024)
+    if season_ind == 1:
+        season_ind += 1
+        season_results = get_season_results(yr)
     else:
-        game_results = pd.concat(objs=[game_results, get_game_results(team, 2024)], axis = 0)
+        season_results = pd.concat(objs = [season_results, get_season_results(yr)], axis=0)
+
+    
+
+    for team in teams.values():
+        time.sleep(2) # needed to avoid 429 error. No more than 30 requests per minute
+        print(team)
+        
+        if game_ind == 1:
+            game_ind += 1
+            #initialize on first iteration
+            game_results = get_game_results(team, yr)
+        else:
+            game_results = pd.concat(objs=[game_results, get_game_results(team, yr)], axis = 0)
 
 
-print(game_results)
+season_results['Team'] = season_results['Team Name'].map(teams)
+game_results.to_csv("./clean_data/game_results.csv")
+season_results.to_csv("./clean_data/season_results.csv")
+#print(season_results)
