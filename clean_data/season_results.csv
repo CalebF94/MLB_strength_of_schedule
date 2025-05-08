@@ -9,7 +9,7 @@
 7,2020,Chicago White Sox,35,25,.583,1.0,CHW
 8,2020,Kansas City Royals,26,34,.433,10.0,KCR
 9,2020,Detroit Tigers,23,35,.397,12.0,DET
-10,2020,Oakland Athletics,36,24,.600,--,OAK
+10,2020,Oakland Athletics,36,24,.600,--,
 11,2020,Houston Astros,29,31,.483,7.0,HOU
 12,2020,Seattle Mariners,27,33,.450,9.0,SEA
 13,2020,Los Angeles Angels,26,34,.433,10.0,LAA
@@ -41,7 +41,7 @@
 9,2021,Minnesota Twins,73,89,.451,20.0,MIN
 10,2021,Houston Astros,95,67,.586,--,HOU
 11,2021,Seattle Mariners,90,72,.556,5.0,SEA
-12,2021,Oakland Athletics,86,76,.531,9.0,OAK
+12,2021,Oakland Athletics,86,76,.531,9.0,
 13,2021,Los Angeles Angels,77,85,.475,18.0,LAA
 14,2021,Texas Rangers,60,102,.370,35.0,TEX
 15,2021,Atlanta Braves,88,73,.547,--,ATL
@@ -73,7 +73,7 @@
 11,2022,Seattle Mariners,90,72,.556,16.0,SEA
 12,2022,Los Angeles Angels,73,89,.451,33.0,LAA
 13,2022,Texas Rangers,68,94,.420,38.0,TEX
-14,2022,Oakland Athletics,60,102,.370,46.0,OAK
+14,2022,Oakland Athletics,60,102,.370,46.0,
 15,2022,Atlanta Braves,101,61,.623,--,ATL
 16,2022,New York Mets,101,61,.623,--,NYM
 17,2022,Philadelphia Phillies,87,75,.537,14.0,PHI
@@ -103,7 +103,7 @@
 11,2023,Texas Rangers,90,72,.556,--,TEX
 12,2023,Seattle Mariners,88,74,.543,2.0,SEA
 13,2023,Los Angeles Angels,73,89,.451,17.0,LAA
-14,2023,Oakland Athletics,50,112,.309,40.0,OAK
+14,2023,Oakland Athletics,50,112,.309,40.0,
 15,2023,Atlanta Braves,104,58,.642,--,ATL
 16,2023,Philadelphia Phillies,90,72,.556,14.0,PHI
 17,2023,Miami Marlins,84,78,.519,20.0,MIA
@@ -132,7 +132,7 @@
 10,2024,Houston Astros,88,73,.547,--,HOU
 11,2024,Seattle Mariners,85,77,.525,3.5,SEA
 12,2024,Texas Rangers,78,84,.481,10.5,TEX
-13,2024,Oakland Athletics,69,93,.426,19.5,OAK
+13,2024,Oakland Athletics,69,93,.426,19.5,
 14,2024,Los Angeles Angels,63,99,.389,25.5,LAA
 15,2024,Philadelphia Phillies,95,67,.586,--,PHI
 16,2024,Atlanta Braves,89,73,.549,6.0,ATL
@@ -149,3 +149,33 @@
 27,2024,Arizona Diamondbacks,89,73,.549,9.0,ARI
 28,2024,San Francisco Giants,80,82,.494,18.0,SFG
 29,2024,Colorado Rockies,61,101,.377,37.0,COL
+0,2025,New York Yankees,20,16,.556,--,NYY
+1,2025,Boston Red Sox,18,19,.486,2.5,BOS
+2,2025,Tampa Bay Rays,16,19,.457,3.5,TBR
+3,2025,Toronto Blue Jays,16,19,.457,3.5,TOR
+4,2025,Baltimore Orioles,13,21,.382,6.0,BAL
+5,2025,Detroit Tigers,22,13,.629,--,DET
+6,2025,Cleveland Guardians,21,15,.583,1.5,CLE
+7,2025,Kansas City Royals,21,16,.568,2.0,KCR
+8,2025,Minnesota Twins,16,20,.444,6.5,MIN
+9,2025,Chicago White Sox,10,26,.278,12.5,CHW
+10,2025,Seattle Mariners,21,14,.600,--,SEA
+11,2025,Athletics,20,17,.541,2.0,ATH
+12,2025,Texas Rangers,18,18,.500,3.5,TEX
+13,2025,Houston Astros,17,18,.486,4.0,HOU
+14,2025,Los Angeles Angels,14,20,.412,6.5,LAA
+15,2025,New York Mets,23,14,.622,--,NYM
+16,2025,Philadelphia Phillies,20,15,.571,2.0,PHI
+17,2025,Atlanta Braves,17,18,.486,5.0,ATL
+18,2025,Washington Nationals,17,20,.459,6.0,WSN
+19,2025,Miami Marlins,14,21,.400,8.0,MIA
+20,2025,Chicago Cubs,22,15,.595,--,CHC
+21,2025,Milwaukee Brewers,19,18,.514,3.0,MIL
+22,2025,Cincinnati Reds,18,19,.486,4.0,CIN
+23,2025,St. Louis Cardinals,18,19,.486,4.0,STL
+24,2025,Pittsburgh Pirates,12,25,.324,10.0,PIT
+25,2025,Los Angeles Dodgers,24,12,.667,--,LAD
+26,2025,San Diego Padres,23,12,.657,0.5,SDP
+27,2025,San Francisco Giants,23,14,.622,1.5,SFG
+28,2025,Arizona Diamondbacks,19,17,.528,5.0,ARI
+29,2025,Colorado Rockies,6,28,.176,17.0,COL
