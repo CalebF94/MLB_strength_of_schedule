@@ -4,7 +4,6 @@
 #   Will use the functions from game_results_scraper, season_results_scraper, team_name_scraper
 #   Will save data to local drive
 
-
 from team_name_scraper import *
 from game_results_scraper import *
 from season_results_scraper import *
@@ -14,10 +13,11 @@ import time
 #indexes to identify first loop through
 game_ind = 1
 season_ind = 1
-for yr in range(2020, 2025):
+for yr in range(2020, 2026):
     
     teams = get_team_names(yr)
 
+    # Gathering season results
     if season_ind == 1:
         season_ind += 1
         season_results = get_season_results(yr)
@@ -25,7 +25,7 @@ for yr in range(2020, 2025):
         season_results = pd.concat(objs = [season_results, get_season_results(yr)], axis=0)
 
     
-
+    #Gathering game by game results
     for team in teams.values():
         time.sleep(2) # needed to avoid 429 error. No more than 30 requests per minute
         print(team)
