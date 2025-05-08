@@ -7,6 +7,7 @@ import re # regular expressions
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 def get_game_results(team, season):
     url = "https://www.baseball-reference.com/teams/" + str(team) + "/" + str(season) + "-schedule-scores.shtml"
@@ -23,6 +24,10 @@ def get_game_results(team, season):
         stat_list = [stat.text for stat in row.find_all('td')]
         
         if stat_list:
+            if(len(stat_list) != 21):
+                    stat_list+[" "]*(21 - len(stat_list))
+                    stat_list[5:20] = [""]*16
+                
             df.loc[len(df)] = stat_list
         
     df['game_number'] = np.arange(1, len(df)+1)
@@ -32,7 +37,8 @@ def get_game_results(team, season):
     df.drop(columns={'boxscore', 'rank', 'games_back', 'winning_pitcher', 'losing_pitcher', 'saving_pitcher', 'cli', 'win_loss_streak', 'reschedule', 'win_loss_record', 'extra_innings'}, inplace=True)
     df.rename(columns = {"date_game": "Date", 'team_ID': 'Team', 'homeORvis': 'H/A', 'opp_ID': 'Opponent', 'R': 'Runs', 'RA': 'Runs Allowed', 'time_of_game': 'Game Time', 'day_or_night': 'Day/Night', 'attendance': 'Attendance', 'game_number': 'Game Number'}, inplace=True)
     df['H/A'] = np.where(df['H/A'] == '@', 'A', 'H')
-    
+    df['Date'] = pd.to_datetime(df['Date'].str.replace("\([1-2]\)", "", regex=True) + " " + str(season), format = "%A, %b %d %Y")
+
     return(df)
 
 #print(get_game_results('ARI', 2024))
