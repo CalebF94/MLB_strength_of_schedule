@@ -7,11 +7,12 @@ import re # regular expressions
 import pandas as pd
 from bs4 import BeautifulSoup
 
+
 def get_team_names(season):
     url = "https://www.baseball-reference.com/leagues/majors/" + str(season) + "-schedule.shtml"
     team_dict = {}
 
-    response = requests.get(url)
+    response = requests.get(url, verify=False)
 
     soup = BeautifulSoup(response.content, features="html.parser")
     team_list = soup.find('form', id = "team_schedule")
@@ -22,4 +23,5 @@ def get_team_names(season):
 
     return(team_dict)
 
-#teams = team_names(2024)
+#teams = get_team_names(2024)
+#print(teams)

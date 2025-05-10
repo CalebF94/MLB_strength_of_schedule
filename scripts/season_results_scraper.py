@@ -7,10 +7,11 @@ import re # regular expressions
 import pandas as pd
 from bs4 import BeautifulSoup
 
+
 def get_season_results(season):
 
     url = "https://www.baseball-reference.com/leagues/majors/" + str(season) + "-standings.shtml"
-    response = requests.get(url)
+    response = requests.get(url, verify=False)
     html = response.text
 
     #Removing html comment that messes with BeutifulSoup
@@ -34,5 +35,5 @@ def get_season_results(season):
     return(df)
 
 
-#print(get_season_results(2022))
+print(get_season_results(2020))
 

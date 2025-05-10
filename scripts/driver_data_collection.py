@@ -39,6 +39,6 @@ for yr in range(2020, 2026):
 
 
 season_results['Team'] = season_results['Team Name'].map(teams)
-game_results.to_csv("./clean_data/game_results.csv")
-season_results.to_csv("./clean_data/season_results.csv")
+game_results.to_csv("./clean_data/game_results.csv", index=False)
+season_results.to_csv("./clean_data/season_results.csv", index=False)
 #print(season_results)
