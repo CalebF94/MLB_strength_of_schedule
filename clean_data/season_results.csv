@@ -1,0 +1,331 @@
+season,team_name,wins,losses,win_%,GB,teams
+2015,Toronto Blue Jays,93,69,0.574,0,TOR
+2015,New York Yankees,87,75,0.537,6.0,NYY
+2015,Baltimore Orioles,81,81,0.5,12.0,BAL
+2015,Tampa Bay Rays,80,82,0.494,13.0,TBR
+2015,Boston Red Sox,78,84,0.481,15.0,BOS
+2015,Kansas City Royals,95,67,0.586,0,KCR
+2015,Minnesota Twins,83,79,0.512,12.0,MIN
+2015,Cleveland Indians,81,80,0.503,13.5,CLE
+2015,Chicago White Sox,76,86,0.469,19.0,CHW
+2015,Detroit Tigers,74,87,0.46,20.5,DET
+2015,Texas Rangers,88,74,0.543,0,TEX
+2015,Houston Astros,86,76,0.531,2.0,HOU
+2015,Los Angeles Angels of Anaheim,85,77,0.525,3.0,
+2015,Seattle Mariners,76,86,0.469,12.0,SEA
+2015,Oakland Athletics,68,94,0.42,20.0,ATH
+2015,New York Mets,90,72,0.556,0,NYM
+2015,Washington Nationals,83,79,0.512,7.0,WSN
+2015,Miami Marlins,71,91,0.438,19.0,MIA
+2015,Atlanta Braves,67,95,0.414,23.0,ATL
+2015,Philadelphia Phillies,63,99,0.389,27.0,PHI
+2015,St. Louis Cardinals,100,62,0.617,0,STL
+2015,Pittsburgh Pirates,98,64,0.605,2.0,PIT
+2015,Chicago Cubs,97,65,0.599,3.0,CHC
+2015,Milwaukee Brewers,68,94,0.42,32.0,MIL
+2015,Cincinnati Reds,64,98,0.395,36.0,CIN
+2015,Los Angeles Dodgers,92,70,0.568,0,LAD
+2015,San Francisco Giants,84,78,0.519,8.0,SFG
+2015,Arizona Diamondbacks,79,83,0.488,13.0,ARI
+2015,San Diego Padres,74,88,0.457,18.0,SDP
+2015,Colorado Rockies,68,94,0.42,24.0,COL
+2016,Boston Red Sox,93,69,0.574,0,BOS
+2016,Baltimore Orioles,89,73,0.549,4.0,BAL
+2016,Toronto Blue Jays,89,73,0.549,4.0,TOR
+2016,New York Yankees,84,78,0.519,9.0,NYY
+2016,Tampa Bay Rays,68,94,0.42,25.0,TBR
+2016,Cleveland Indians,94,67,0.584,0,CLE
+2016,Detroit Tigers,86,75,0.534,8.0,DET
+2016,Kansas City Royals,81,81,0.5,13.5,KCR
+2016,Chicago White Sox,78,84,0.481,16.5,CHW
+2016,Minnesota Twins,59,103,0.364,35.5,MIN
+2016,Texas Rangers,95,67,0.586,0,TEX
+2016,Seattle Mariners,86,76,0.531,9.0,SEA
+2016,Houston Astros,84,78,0.519,11.0,HOU
+2016,Los Angeles Angels,74,88,0.457,21.0,LAA
+2016,Oakland Athletics,69,93,0.426,26.0,ATH
+2016,Washington Nationals,95,67,0.586,0,WSN
+2016,New York Mets,87,75,0.537,8.0,NYM
+2016,Miami Marlins,79,82,0.491,15.5,MIA
+2016,Philadelphia Phillies,71,91,0.438,24.0,PHI
+2016,Atlanta Braves,68,93,0.422,26.5,ATL
+2016,Chicago Cubs,103,58,0.64,0,CHC
+2016,St. Louis Cardinals,86,76,0.531,17.5,STL
+2016,Pittsburgh Pirates,78,83,0.484,25.0,PIT
+2016,Milwaukee Brewers,73,89,0.451,30.5,MIL
+2016,Cincinnati Reds,68,94,0.42,35.5,CIN
+2016,Los Angeles Dodgers,91,71,0.562,0,LAD
+2016,San Francisco Giants,87,75,0.537,4.0,SFG
+2016,Colorado Rockies,75,87,0.463,16.0,COL
+2016,Arizona Diamondbacks,69,93,0.426,22.0,ARI
+2016,San Diego Padres,68,94,0.42,23.0,SDP
+2017,Boston Red Sox,93,69,0.574,0,BOS
+2017,New York Yankees,91,71,0.562,2.0,NYY
+2017,Tampa Bay Rays,80,82,0.494,13.0,TBR
+2017,Toronto Blue Jays,76,86,0.469,17.0,TOR
+2017,Baltimore Orioles,75,87,0.463,18.0,BAL
+2017,Cleveland Indians,102,60,0.63,0,CLE
+2017,Minnesota Twins,85,77,0.525,17.0,MIN
+2017,Kansas City Royals,80,82,0.494,22.0,KCR
+2017,Chicago White Sox,67,95,0.414,35.0,CHW
+2017,Detroit Tigers,64,98,0.395,38.0,DET
+2017,Houston Astros,101,61,0.623,0,HOU
+2017,Los Angeles Angels,80,82,0.494,21.0,LAA
+2017,Seattle Mariners,78,84,0.481,23.0,SEA
+2017,Texas Rangers,78,84,0.481,23.0,TEX
+2017,Oakland Athletics,75,87,0.463,26.0,ATH
+2017,Washington Nationals,97,65,0.599,0,WSN
+2017,Miami Marlins,77,85,0.475,20.0,MIA
+2017,Atlanta Braves,72,90,0.444,25.0,ATL
+2017,New York Mets,70,92,0.432,27.0,NYM
+2017,Philadelphia Phillies,66,96,0.407,31.0,PHI
+2017,Chicago Cubs,92,70,0.568,0,CHC
+2017,Milwaukee Brewers,86,76,0.531,6.0,MIL
+2017,St. Louis Cardinals,83,79,0.512,9.0,STL
+2017,Pittsburgh Pirates,75,87,0.463,17.0,PIT
+2017,Cincinnati Reds,68,94,0.42,24.0,CIN
+2017,Los Angeles Dodgers,104,58,0.642,0,LAD
+2017,Arizona Diamondbacks,93,69,0.574,11.0,ARI
+2017,Colorado Rockies,87,75,0.537,17.0,COL
+2017,San Diego Padres,71,91,0.438,33.0,SDP
+2017,San Francisco Giants,64,98,0.395,40.0,SFG
+2018,Boston Red Sox,108,54,0.667,0,BOS
+2018,New York Yankees,100,62,0.617,8.0,NYY
+2018,Tampa Bay Rays,90,72,0.556,18.0,TBR
+2018,Toronto Blue Jays,73,89,0.451,35.0,TOR
+2018,Baltimore Orioles,47,115,0.29,61.0,BAL
+2018,Cleveland Indians,91,71,0.562,0,CLE
+2018,Minnesota Twins,78,84,0.481,13.0,MIN
+2018,Detroit Tigers,64,98,0.395,27.0,DET
+2018,Chicago White Sox,62,100,0.383,29.0,CHW
+2018,Kansas City Royals,58,104,0.358,33.0,KCR
+2018,Houston Astros,103,59,0.636,0,HOU
+2018,Oakland Athletics,97,65,0.599,6.0,ATH
+2018,Seattle Mariners,89,73,0.549,14.0,SEA
+2018,Los Angeles Angels,80,82,0.494,23.0,LAA
+2018,Texas Rangers,67,95,0.414,36.0,TEX
+2018,Atlanta Braves,90,72,0.556,0,ATL
+2018,Washington Nationals,82,80,0.506,8.0,WSN
+2018,Philadelphia Phillies,80,82,0.494,10.0,PHI
+2018,New York Mets,77,85,0.475,13.0,NYM
+2018,Miami Marlins,63,98,0.391,26.5,MIA
+2018,Milwaukee Brewers,96,67,0.589,0,MIL
+2018,Chicago Cubs,95,68,0.583,1.0,CHC
+2018,St. Louis Cardinals,88,74,0.543,7.5,STL
+2018,Pittsburgh Pirates,82,79,0.509,13.0,PIT
+2018,Cincinnati Reds,67,95,0.414,28.5,CIN
+2018,Los Angeles Dodgers,92,71,0.564,0,LAD
+2018,Colorado Rockies,91,72,0.558,1.0,COL
+2018,Arizona Diamondbacks,82,80,0.506,9.5,ARI
+2018,San Francisco Giants,73,89,0.451,18.5,SFG
+2018,San Diego Padres,66,96,0.407,25.5,SDP
+2019,New York Yankees,103,59,0.636,0,NYY
+2019,Tampa Bay Rays,96,66,0.593,7.0,TBR
+2019,Boston Red Sox,84,78,0.519,19.0,BOS
+2019,Toronto Blue Jays,67,95,0.414,36.0,TOR
+2019,Baltimore Orioles,54,108,0.333,49.0,BAL
+2019,Minnesota Twins,101,61,0.623,0,MIN
+2019,Cleveland Indians,93,69,0.574,8.0,CLE
+2019,Chicago White Sox,72,89,0.447,28.5,CHW
+2019,Kansas City Royals,59,103,0.364,42.0,KCR
+2019,Detroit Tigers,47,114,0.292,53.5,DET
+2019,Houston Astros,107,55,0.66,0,HOU
+2019,Oakland Athletics,97,65,0.599,10.0,ATH
+2019,Texas Rangers,78,84,0.481,29.0,TEX
+2019,Los Angeles Angels,72,90,0.444,35.0,LAA
+2019,Seattle Mariners,68,94,0.42,39.0,SEA
+2019,Atlanta Braves,97,65,0.599,0,ATL
+2019,Washington Nationals,93,69,0.574,4.0,WSN
+2019,New York Mets,86,76,0.531,11.0,NYM
+2019,Philadelphia Phillies,81,81,0.5,16.0,PHI
+2019,Miami Marlins,57,105,0.352,40.0,MIA
+2019,St. Louis Cardinals,91,71,0.562,0,STL
+2019,Milwaukee Brewers,89,73,0.549,2.0,MIL
+2019,Chicago Cubs,84,78,0.519,7.0,CHC
+2019,Cincinnati Reds,75,87,0.463,16.0,CIN
+2019,Pittsburgh Pirates,69,93,0.426,22.0,PIT
+2019,Los Angeles Dodgers,106,56,0.654,0,LAD
+2019,Arizona Diamondbacks,85,77,0.525,21.0,ARI
+2019,San Francisco Giants,77,85,0.475,29.0,SFG
+2019,Colorado Rockies,71,91,0.438,35.0,COL
+2019,San Diego Padres,70,92,0.432,36.0,SDP
+2020,Tampa Bay Rays,40,20,0.667,0,TBR
+2020,New York Yankees,33,27,0.55,7.0,NYY
+2020,Toronto Blue Jays,32,28,0.533,8.0,TOR
+2020,Baltimore Orioles,25,35,0.417,15.0,BAL
+2020,Boston Red Sox,24,36,0.4,16.0,BOS
+2020,Minnesota Twins,36,24,0.6,0,MIN
+2020,Cleveland Indians,35,25,0.583,1.0,CLE
+2020,Chicago White Sox,35,25,0.583,1.0,CHW
+2020,Kansas City Royals,26,34,0.433,10.0,KCR
+2020,Detroit Tigers,23,35,0.397,12.0,DET
+2020,Oakland Athletics,36,24,0.6,0,ATH
+2020,Houston Astros,29,31,0.483,7.0,HOU
+2020,Seattle Mariners,27,33,0.45,9.0,SEA
+2020,Los Angeles Angels,26,34,0.433,10.0,LAA
+2020,Texas Rangers,22,38,0.367,14.0,TEX
+2020,Atlanta Braves,35,25,0.583,0,ATL
+2020,Miami Marlins,31,29,0.517,4.0,MIA
+2020,Philadelphia Phillies,28,32,0.467,7.0,PHI
+2020,New York Mets,26,34,0.433,9.0,NYM
+2020,Washington Nationals,26,34,0.433,9.0,WSN
+2020,Chicago Cubs,34,26,0.567,0,CHC
+2020,St. Louis Cardinals,30,28,0.517,3.0,STL
+2020,Cincinnati Reds,31,29,0.517,3.0,CIN
+2020,Milwaukee Brewers,29,31,0.483,5.0,MIL
+2020,Pittsburgh Pirates,19,41,0.317,15.0,PIT
+2020,Los Angeles Dodgers,43,17,0.717,0,LAD
+2020,San Diego Padres,37,23,0.617,6.0,SDP
+2020,San Francisco Giants,29,31,0.483,14.0,SFG
+2020,Colorado Rockies,26,34,0.433,17.0,COL
+2020,Arizona Diamondbacks,25,35,0.417,18.0,ARI
+2021,Tampa Bay Rays,100,62,0.617,0,TBR
+2021,Boston Red Sox,92,70,0.568,8.0,BOS
+2021,New York Yankees,92,70,0.568,8.0,NYY
+2021,Toronto Blue Jays,91,71,0.562,9.0,TOR
+2021,Baltimore Orioles,52,110,0.321,48.0,BAL
+2021,Chicago White Sox,93,69,0.574,0,CHW
+2021,Cleveland Indians,80,82,0.494,13.0,CLE
+2021,Detroit Tigers,77,85,0.475,16.0,DET
+2021,Kansas City Royals,74,88,0.457,19.0,KCR
+2021,Minnesota Twins,73,89,0.451,20.0,MIN
+2021,Houston Astros,95,67,0.586,0,HOU
+2021,Seattle Mariners,90,72,0.556,5.0,SEA
+2021,Oakland Athletics,86,76,0.531,9.0,ATH
+2021,Los Angeles Angels,77,85,0.475,18.0,LAA
+2021,Texas Rangers,60,102,0.37,35.0,TEX
+2021,Atlanta Braves,88,73,0.547,0,ATL
+2021,Philadelphia Phillies,82,80,0.506,6.5,PHI
+2021,New York Mets,77,85,0.475,11.5,NYM
+2021,Miami Marlins,67,95,0.414,21.5,MIA
+2021,Washington Nationals,65,97,0.401,23.5,WSN
+2021,Milwaukee Brewers,95,67,0.586,0,MIL
+2021,St. Louis Cardinals,90,72,0.556,5.0,STL
+2021,Cincinnati Reds,83,79,0.512,12.0,CIN
+2021,Chicago Cubs,71,91,0.438,24.0,CHC
+2021,Pittsburgh Pirates,61,101,0.377,34.0,PIT
+2021,San Francisco Giants,107,55,0.66,0,SFG
+2021,Los Angeles Dodgers,106,56,0.654,1.0,LAD
+2021,San Diego Padres,79,83,0.488,28.0,SDP
+2021,Colorado Rockies,74,87,0.46,32.5,COL
+2021,Arizona Diamondbacks,52,110,0.321,55.0,ARI
+2022,New York Yankees,99,63,0.611,0,NYY
+2022,Toronto Blue Jays,92,70,0.568,7.0,TOR
+2022,Tampa Bay Rays,86,76,0.531,13.0,TBR
+2022,Baltimore Orioles,83,79,0.512,16.0,BAL
+2022,Boston Red Sox,78,84,0.481,21.0,BOS
+2022,Cleveland Guardians,92,70,0.568,0,CLE
+2022,Chicago White Sox,81,81,0.5,11.0,CHW
+2022,Minnesota Twins,78,84,0.481,14.0,MIN
+2022,Detroit Tigers,66,96,0.407,26.0,DET
+2022,Kansas City Royals,65,97,0.401,27.0,KCR
+2022,Houston Astros,106,56,0.654,0,HOU
+2022,Seattle Mariners,90,72,0.556,16.0,SEA
+2022,Los Angeles Angels,73,89,0.451,33.0,LAA
+2022,Texas Rangers,68,94,0.42,38.0,TEX
+2022,Oakland Athletics,60,102,0.37,46.0,ATH
+2022,Atlanta Braves,101,61,0.623,0,ATL
+2022,New York Mets,101,61,0.623,0,NYM
+2022,Philadelphia Phillies,87,75,0.537,14.0,PHI
+2022,Miami Marlins,69,93,0.426,32.0,MIA
+2022,Washington Nationals,55,107,0.34,46.0,WSN
+2022,St. Louis Cardinals,93,69,0.574,0,STL
+2022,Milwaukee Brewers,86,76,0.531,7.0,MIL
+2022,Chicago Cubs,74,88,0.457,19.0,CHC
+2022,Cincinnati Reds,62,100,0.383,31.0,CIN
+2022,Pittsburgh Pirates,62,100,0.383,31.0,PIT
+2022,Los Angeles Dodgers,111,51,0.685,0,LAD
+2022,San Diego Padres,89,73,0.549,22.0,SDP
+2022,San Francisco Giants,81,81,0.5,30.0,SFG
+2022,Arizona Diamondbacks,74,88,0.457,37.0,ARI
+2022,Colorado Rockies,68,94,0.42,43.0,COL
+2023,Baltimore Orioles,101,61,0.623,0,BAL
+2023,Tampa Bay Rays,99,63,0.611,2.0,TBR
+2023,Toronto Blue Jays,89,73,0.549,12.0,TOR
+2023,New York Yankees,82,80,0.506,19.0,NYY
+2023,Boston Red Sox,78,84,0.481,23.0,BOS
+2023,Minnesota Twins,87,75,0.537,0,MIN
+2023,Detroit Tigers,78,84,0.481,9.0,DET
+2023,Cleveland Guardians,76,86,0.469,11.0,CLE
+2023,Chicago White Sox,61,101,0.377,26.0,CHW
+2023,Kansas City Royals,56,106,0.346,31.0,KCR
+2023,Houston Astros,90,72,0.556,0,HOU
+2023,Texas Rangers,90,72,0.556,0,TEX
+2023,Seattle Mariners,88,74,0.543,2.0,SEA
+2023,Los Angeles Angels,73,89,0.451,17.0,LAA
+2023,Oakland Athletics,50,112,0.309,40.0,ATH
+2023,Atlanta Braves,104,58,0.642,0,ATL
+2023,Philadelphia Phillies,90,72,0.556,14.0,PHI
+2023,Miami Marlins,84,78,0.519,20.0,MIA
+2023,New York Mets,75,87,0.463,29.0,NYM
+2023,Washington Nationals,71,91,0.438,33.0,WSN
+2023,Milwaukee Brewers,92,70,0.568,0,MIL
+2023,Chicago Cubs,83,79,0.512,9.0,CHC
+2023,Cincinnati Reds,82,80,0.506,10.0,CIN
+2023,Pittsburgh Pirates,76,86,0.469,16.0,PIT
+2023,St. Louis Cardinals,71,91,0.438,21.0,STL
+2023,Los Angeles Dodgers,100,62,0.617,0,LAD
+2023,Arizona Diamondbacks,84,78,0.519,16.0,ARI
+2023,San Diego Padres,82,80,0.506,18.0,SDP
+2023,San Francisco Giants,79,83,0.488,21.0,SFG
+2023,Colorado Rockies,59,103,0.364,41.0,COL
+2024,New York Yankees,94,68,0.58,0,NYY
+2024,Baltimore Orioles,91,71,0.562,3.0,BAL
+2024,Boston Red Sox,81,81,0.5,13.0,BOS
+2024,Tampa Bay Rays,80,82,0.494,14.0,TBR
+2024,Toronto Blue Jays,74,88,0.457,20.0,TOR
+2024,Cleveland Guardians,92,69,0.571,0,CLE
+2024,Kansas City Royals,86,76,0.531,6.5,KCR
+2024,Detroit Tigers,86,76,0.531,6.5,DET
+2024,Minnesota Twins,82,80,0.506,10.5,MIN
+2024,Chicago White Sox,41,121,0.253,51.5,CHW
+2024,Houston Astros,88,73,0.547,0,HOU
+2024,Seattle Mariners,85,77,0.525,3.5,SEA
+2024,Texas Rangers,78,84,0.481,10.5,TEX
+2024,Oakland Athletics,69,93,0.426,19.5,ATH
+2024,Los Angeles Angels,63,99,0.389,25.5,LAA
+2024,Philadelphia Phillies,95,67,0.586,0,PHI
+2024,Atlanta Braves,89,73,0.549,6.0,ATL
+2024,New York Mets,89,73,0.549,6.0,NYM
+2024,Washington Nationals,71,91,0.438,24.0,WSN
+2024,Miami Marlins,62,100,0.383,33.0,MIA
+2024,Milwaukee Brewers,93,69,0.574,0,MIL
+2024,Chicago Cubs,83,79,0.512,10.0,CHC
+2024,St. Louis Cardinals,83,79,0.512,10.0,STL
+2024,Cincinnati Reds,77,85,0.475,16.0,CIN
+2024,Pittsburgh Pirates,76,86,0.469,17.0,PIT
+2024,Los Angeles Dodgers,98,64,0.605,0,LAD
+2024,San Diego Padres,93,69,0.574,5.0,SDP
+2024,Arizona Diamondbacks,89,73,0.549,9.0,ARI
+2024,San Francisco Giants,80,82,0.494,18.0,SFG
+2024,Colorado Rockies,61,101,0.377,37.0,COL
+2025,New York Yankees,23,17,0.575,0,NYY
+2025,Boston Red Sox,22,20,0.524,2.0,BOS
+2025,Toronto Blue Jays,20,20,0.5,3.0,TOR
+2025,Tampa Bay Rays,18,22,0.45,5.0,TBR
+2025,Baltimore Orioles,15,24,0.385,7.5,BAL
+2025,Detroit Tigers,26,15,0.634,0,DET
+2025,Cleveland Guardians,23,17,0.575,2.5,CLE
+2025,Kansas City Royals,24,18,0.571,2.5,KCR
+2025,Minnesota Twins,21,20,0.512,5.0,MIN
+2025,Chicago White Sox,12,29,0.293,14.0,CHW
+2025,Seattle Mariners,22,17,0.564,0,SEA
+2025,Houston Astros,20,19,0.513,2.0,HOU
+2025,Athletics,21,20,0.512,2.0,ATH
+2025,Texas Rangers,20,21,0.488,3.0,TEX
+2025,Los Angeles Angels,16,23,0.41,6.0,LAA
+2025,New York Mets,26,15,0.634,0,NYM
+2025,Philadelphia Phillies,24,16,0.6,1.5,PHI
+2025,Atlanta Braves,19,21,0.475,6.5,ATL
+2025,Washington Nationals,17,24,0.415,9.0,WSN
+2025,Miami Marlins,15,24,0.385,10.0,MIA
+2025,Chicago Cubs,23,18,0.561,0,CHC
+2025,St. Louis Cardinals,22,19,0.537,1.0,STL
+2025,Milwaukee Brewers,20,21,0.488,3.0,MIL
+2025,Cincinnati Reds,20,22,0.476,3.5,CIN
+2025,Pittsburgh Pirates,14,27,0.341,9.0,PIT
+2025,Los Angeles Dodgers,27,14,0.659,0,LAD
+2025,San Diego Padres,25,14,0.641,1.0,SDP
+2025,San Francisco Giants,24,17,0.585,3.0,SFG
+2025,Arizona Diamondbacks,21,20,0.512,6.0,ARI
+2025,Colorado Rockies,7,33,0.175,19.5,COL
