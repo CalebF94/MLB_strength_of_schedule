@@ -14,7 +14,7 @@ def game_time_to_minutes(game_time):
     return(minutes)
 
 
-df_game_data = pd.read_csv("./raw_data/raw_game_results.csv").drop(['Unnamed: 0'], axis=1)
+df_game_data = pd.read_csv("./raw_data/raw_game_results.csv")#.drop(['Unnamed: 0'], axis=1)
 #df_season_results = pd.read_csv("./raw_data/season_results.csv").drop(['Unnamed: 0'], axis=1)
 
 #removing records that were not completed at time of data scraping
@@ -32,5 +32,40 @@ df_game_data.loc[df_game_data['Date']<'2021-01-01', 'Attendance'] = 0
 
 # converting H:MM game lengths to minutes
 df_game_data['Length Minutes'] = df_game_data['Game Time'].apply(game_time_to_minutes)
+
+data_types = {
+    'Date': 'datetime64[ns]',
+    'Team': 'string',
+    'H/A': 'string',
+    'Opponent':'string',
+    'win_loss_result':'string',
+    'Runs': 'int',
+    'Runs Allowed': 'int',
+    'Game Time':'string',
+    'Day/Night': 'string',
+    'Attendance':'float',
+    'Game Number': 'int',
+    'Year':'int',
+    'Length Minutes': int
+}
+df_game_data = df_game_data.astype(data_types)
+
+#renaming columns
+col_names = {
+    'Date': 'date',
+    'Team': 'team',
+    'H/A': 'H/A',
+    'Opponent':'opponent',
+    'win_loss_result':'win_loss',
+    'Runs': 'runs_scored',
+    'Runs Allowed': 'runs_allowed',
+    'Game Time':'game_time',
+    'Day/Night': 'day_night',
+    'Attendance':'attendance',
+    'Game Number': 'game_number',
+    'Year':'season',
+    'Length Minutes': 'game_length'
+}
+df_game_data.rename(columns=col_names, inplace=True)
 
 df_game_data.to_csv('./clean_data/game_results.csv', index=False)
