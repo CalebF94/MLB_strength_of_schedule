@@ -10,10 +10,12 @@ from season_results_scraper import *
 import pandas as pd
 import time
 
+
 #indexes to identify first loop through
 game_ind = 1
 season_ind = 1
-for yr in range(2020, 2026):
+for yr in range(2015, 2026):
+    print(f'Scraping Year: {yr}')
     
     teams = get_team_names(yr)
 
@@ -28,7 +30,6 @@ for yr in range(2020, 2026):
     #Gathering game by game results
     for team in teams.values():
         time.sleep(2) # needed to avoid 429 error. No more than 30 requests per minute
-        print(team)
         
         if game_ind == 1:
             game_ind += 1
@@ -39,6 +40,10 @@ for yr in range(2020, 2026):
 
 
 season_results['Team'] = season_results['Team Name'].map(teams)
-game_results.to_csv("./clean_data/game_results.csv", index=False)
-season_results.to_csv("./clean_data/season_results.csv", index=False)
+game_results.to_csv("./raw_data/raw_game_results.csv", index=False)
+season_results.to_csv("./raw_data/raw_season_results.csv", index=False)
 #print(season_results)
+
+#clean data
+exec(open("./scripts/cleaning_season_data.py").read())
+exec(open("./scripts/cleaning_game_data.py").read())

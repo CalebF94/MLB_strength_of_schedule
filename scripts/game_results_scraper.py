@@ -33,7 +33,7 @@ def get_game_results(team, season):
     df['game_number'] = np.arange(1, len(df)+1)
     df['Year'] = np.repeat(season, len(df))
 
-    #Basic data cleaning
+    #Basic data cleaning and column selection
     df.drop(columns={'boxscore', 'rank', 'games_back', 'winning_pitcher', 'losing_pitcher', 'saving_pitcher', 'cli', 'win_loss_streak', 'reschedule', 'win_loss_record', 'extra_innings'}, inplace=True)
     df.rename(columns = {"date_game": "Date", 'team_ID': 'Team', 'homeORvis': 'H/A', 'opp_ID': 'Opponent', 'R': 'Runs', 'RA': 'Runs Allowed', 'time_of_game': 'Game Time', 'day_or_night': 'Day/Night', 'attendance': 'Attendance', 'game_number': 'Game Number'}, inplace=True)
     df['H/A'] = np.where(df['H/A'] == '@', 'A', 'H')

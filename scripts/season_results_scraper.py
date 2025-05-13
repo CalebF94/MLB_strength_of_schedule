@@ -35,5 +35,5 @@ def get_season_results(season):
     return(df)
 
 
-print(get_season_results(2020))
+#print(get_season_results(2020))
 
