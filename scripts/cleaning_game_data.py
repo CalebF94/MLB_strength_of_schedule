@@ -7,7 +7,7 @@ import numpy as np
 
 
 def game_time_to_minutes(game_time):
-
+    """Converts game length to minutes"""
     if type(game_time) is str: game_time = str(game_time)
 
     minutes = (float(game_time.split(':')[0]) *60) + float(game_time.split(':')[1])

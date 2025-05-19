@@ -1,9 +1,8 @@
 #Author: Caleb Fornshell
 #Date Created: 5/11/2025
-#Purpose: script cleans the raw/scraped data for the game by season summary data. Clean data is then saved to be used in later analysis
+#Purpose: script cleans the raw/scraped data for the season summary data. Clean data is then saved to be used in later analysis
 
 import pandas as pd
-import numpy as np
 
 df_season_results = pd.read_csv("./raw_data/raw_season_results.csv")#.drop(['Unnamed: 0'], axis=1)
 

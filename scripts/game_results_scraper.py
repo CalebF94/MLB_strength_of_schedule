@@ -1,15 +1,24 @@
 #Author: Caleb Fornshell
 #Date Created: 5/3/2025
 #Purpose: script to create a function that gathers game by game results for a specified team and season
+#   Functions will be used in driver_data_collection.py
 
-import requests
 import re # regular expressions
+from datetime import datetime
+import requests
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
-from datetime import datetime
+
 
 def get_game_results(team, season):
+    """
+    Scrapes game level data for a specific team and season
+
+    Keyword arguments:
+    team -- team three character abbreviation
+    season -- season game results to gather
+    """
     url = "https://www.baseball-reference.com/teams/" + str(team) + "/" + str(season) + "-schedule-scores.shtml"
 
     response = requests.get(url)

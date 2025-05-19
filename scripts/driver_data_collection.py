@@ -4,12 +4,11 @@
 #   Will use the functions from game_results_scraper, season_results_scraper, team_name_scraper
 #   Will save data to local drive
 
+import time
 from team_name_scraper import *
 from game_results_scraper import *
 from season_results_scraper import *
 import pandas as pd
-import time
-
 
 #indexes to identify first loop through
 game_ind = 1

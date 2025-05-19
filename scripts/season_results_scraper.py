@@ -2,13 +2,19 @@
 #Date Created: 5/3/2025
 #Purpose: script to contain a function that gathers season results from baseball-reference
 
-import requests
 import re # regular expressions
+import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
 
 def get_season_results(season):
+    """
+    Scrapes full season team results for a given season
+
+    Keyword Arguments:
+    season - season to scrape
+    """
 
     url = "https://www.baseball-reference.com/leagues/majors/" + str(season) + "-standings.shtml"
     response = requests.get(url, verify=False)

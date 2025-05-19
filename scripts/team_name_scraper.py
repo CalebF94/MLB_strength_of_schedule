@@ -1,14 +1,18 @@
 #Author: Caleb Fornshell
 #Date Created: 5/4/2025
-#Purpose: Scrape season schedules for MLB Teams
+#Purpose: Scrapes team abbreviations for the specified season
 
 import requests
-import re # regular expressions
-import pandas as pd
 from bs4 import BeautifulSoup
 
 
 def get_team_names(season):
+    """
+    Collects three character team abbreviations for the specified season
+
+    Keyword Arguments:
+    season - season to gather
+    """
     url = "https://www.baseball-reference.com/leagues/majors/" + str(season) + "-schedule.shtml"
     team_dict = {}
 
