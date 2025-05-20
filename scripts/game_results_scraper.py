@@ -3,9 +3,7 @@
 #Purpose: script to create a function that gathers game by game results for a specified team and season
 #   Functions will be used in driver_data_collection.py
 
-import re # regular expressions
-from datetime import datetime
-import requests
+
 import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup

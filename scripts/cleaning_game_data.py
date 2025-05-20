@@ -3,7 +3,6 @@
 #Purpose: script cleans the raw/scraped data for the game by game data. Clean data is then saved to be used in later analysis
 
 import pandas as pd
-import numpy as np
 
 
 def game_time_to_minutes(game_time):
@@ -21,7 +20,7 @@ df_game_data = pd.read_csv("./raw_data/raw_game_results.csv")#.drop(['Unnamed: 0
 df_game_data = df_game_data[df_game_data['win_loss_result'].notna()]
 
 #some games don't have attendance listed. Will impute using average of non missing
-avg_attendance = round(df_game_data.loc[:, 'Attendance'].str.replace(",", "").dropna().astype('int').mean(),0) 
+avg_attendance = round(df_game_data.loc[:, 'Attendance'].str.replace(",", "").dropna().astype('int').mean(),0)
 
 #converting attendance into number and setting nulls to the average
 #need regex=True for partial string matches
