@@ -1,33 +1,13 @@
 # MLB Strength of Schedule Analysis
 This analysis investigates the claim that the Chicago Cubs had the toughest opening schedule for the 2025 MLB season.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** [Completed Analysis](https://github.com/CalebF94/MLB_strength_of_schedule/blob/main/Analysis.ipynb)
 
-## How It Was Made
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+## How It Was Made:
+I created python scripts to collect, clean, and format season and game level data that was scraped from https://www.baseball-reference.com/. Following data collection, I analyzed the data in a jupyter notebook where I completed data manipulation, cleaning, and visualization to explore the data and to determine whether the Cubs had the toughest opening schedule. 
 
-
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
-
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+## Optimizations:
+To improve performance and readabilty, I created separate functions for different data scraping tasks. I also modularized my python scripts to clearly delineate different data gathering and cleaning processes.
 
 ## Lessons Learned:
-
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
-
-
-
+This was one of my first data analysis projects done entirely in python, so I learned a lot. One of the biggest challenges was the organization of the project as a whole. Learning how to python environments and properly organize python scripts and notebooks will be a valuable skill as I continue to work in python. 
